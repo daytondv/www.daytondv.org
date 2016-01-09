@@ -12,7 +12,10 @@ goals in mind:
 ## Encourage participation
 In the 2015 year end survey, when asked for reasons they came to the meetups,
 "hearing great speakers" and "networking" were the two highest rated
-responses.
+responses. The website can help with announcing upcoming meetups, show info
+from past meetups (notes and links), encourage participation on slack, and
+encourage people to sign up and participate on meetup.com (events and mailing
+list).
 
 
 ## Build people up to speaking at an event
