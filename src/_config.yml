@@ -1,0 +1,16 @@
+
+#
+# www.daytondv.com jekyll settings
+#
+
+# Site settings
+title: Dayton Data Visualization
+email: bowmanmc@gmail.com
+description: Dayton Data Visualization Group
+baseurl: ""
+url: "http://www.daytondv.com"
+twitter_username: daytondv
+github_username:  bowmanmc
+
+# Build settings
+markdown: kramdown
