@@ -14,7 +14,7 @@
         "start": "npm run clean && parallelshell \"browser-sync start --config bs-config.js\" \"npm run watch\"",
         "test": "echo \"Error: no test specified\" && exit 1",
         "watch": "parallelshell \"npm run watch:jekyll\" \"npm run watch:js\" \"npm run watch:sass\"",
-        "watch:jekyll": "nodemon -w src -e html,md,png,jpg,gif,yml,xml,js,css --ignore src/javascript --delay 1 -x \"npm run jekyll\"",
+        "watch:jekyll": "nodemon -w src -e html,md,png,jpg,gif,svg,yml,xml,js,css --ignore src/javascript --delay 1 -x \"npm run jekyll\"",
         "watch:js": "webpack -d --progress --colors --watch",
         "watch:sass": "nodemon -e scss -w src/sass -x \"npm run sass\""
     },
