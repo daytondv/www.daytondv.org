@@ -5,18 +5,42 @@ $nav-height: 50px;
     @include outer-container(100%);
 
     align-items: center;
-    border-bottom: 2px solid #f00;
+    @include background-image(linear-gradient(to bottom, lighten($clr-blue_dk, 10%), $clr-blue_dk));
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 0 7px #000;
     display: flex;
     font-family: $font-heading;
     justify-content: flex-start;
     padding: 0.25em 1.0em;
 
     a {
-        padding: 0.5em 1.0em;
         justify-content: center;
     }
 
-    .logo {
-        padding-left: 0;
+    svg {
+        width: 42px;
+    }
+
+    .navlogo {
+        background: none;
+        border: none;
+        padding: 0.25em 0.5em 0.25em 0;
+    }
+
+    .navlink {
+        background-color: rgba(#fff, 0.05);
+        border-radius: 0.25em;
+        color: $clr-yellow;
+        font-size: 0.85em;
+        letter-spacing: 0.075em;
+        margin: 0.25em 0.5em;
+        padding: 0.5em 1.0em;
+        text-decoration: none;
+        text-shadow: 1px 1px 0 #000;
+
+        &:hover {
+            background-color: rgba(#fff, 0.15);
+            color: #fff;
+        }
     }
 }
