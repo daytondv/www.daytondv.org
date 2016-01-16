@@ -1,1 +1,21 @@
 
+$nav-height: 50px;
+
+.navigation {
+    @include outer-container(100%);
+
+    align-items: center;
+    border-bottom: 2px solid #f00;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.25em 1.0em;
+
+    a {
+        padding: 0.5em 1.0em;
+        justify-content: center;
+    }
+
+    .logo {
+        padding-left: 0;
+    }
+}
