@@ -6,8 +6,8 @@ $nav-height: 50px;
 
     align-items: center;
     @include background-image(linear-gradient(to bottom, lighten($clr-blue_dk, 10%), $clr-blue_dk));
-    border-bottom: 1px solid #fff;
-    box-shadow: 0 0 7px #000;
+    //border-bottom: 1px solid #fff;
+    //box-shadow: 0 0 7px #000;
     display: flex;
     font-family: $font-heading;
     justify-content: flex-start;

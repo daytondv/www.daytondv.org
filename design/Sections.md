@@ -19,7 +19,7 @@ List of upcoming events, past events, and information for potential speakers
 Links to Dayton & Ohio specific data sources.
 
 ## About
-Links to meetup.com site, mailing list archives, and slack.
+Links to meetup.com site, mailing list archives, and slack. Code of Conduct
 
 ## Sponsors
 Links to our sponsors and information for potential sponsors
