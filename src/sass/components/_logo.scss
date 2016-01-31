@@ -1,0 +1,11 @@
+$size: 57px;
+
+.logo {
+    height: $size;
+    width: $size;
+
+    // hides the top steady svg layer and shows the animating layer
+    &:hover .steady {
+        display: none;
+    }
+}
