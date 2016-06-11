@@ -1,13 +1,15 @@
 
+header {
+    background: $clr-dark;
+    color: $clr-light;
+}
+
 $nav-height: 50px;
 
 .navigation {
     @include outer-container(100%);
 
     align-items: center;
-    @include background-image(linear-gradient(to bottom, lighten($clr-blue_dk, 10%), $clr-blue_dk));
-    //border-bottom: 1px solid #fff;
-    //box-shadow: 0 0 7px #000;
     display: flex;
     font-family: $font-heading;
     justify-content: flex-start;
@@ -18,19 +20,18 @@ $nav-height: 50px;
     }
 
     svg {
-        width: 42px;
+        height: 42px;
     }
 
     .navlogo {
         background: none;
         border: none;
-        padding: 0.25em 0.5em 0.25em 0;
     }
 
     .navlink {
-        background-color: rgba(#fff, 0.05);
-        border-radius: 0.25em;
-        color: $clr-yellow;
+        //background-color: rgba(#fff, 0.05);
+        //border-radius: 0.25em;
+        //color: $clr-yellow;
         font-size: 0.85em;
         letter-spacing: 0.075em;
         margin: 0.25em 0.5em;
@@ -40,7 +41,7 @@ $nav-height: 50px;
 
         &:hover {
             background-color: rgba(#fff, 0.15);
-            color: #fff;
+            //color: #fff;
         }
     }
 }

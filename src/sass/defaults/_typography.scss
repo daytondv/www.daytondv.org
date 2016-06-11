@@ -1,6 +1,13 @@
 
-$font-heading: 'Montserrat', sans-serif;
-$font-body: 'Merriweather', serif;
+// The Tufte stack from https://www.edwardtufte.com
+$font-heading: 'GillSans', 'Gill Sans MT', 'Gill Sans', 'Trebuchet MS', sans-serif;
+$font-body: 'Times New Roman','Times','Serif';
+
+body {
+    font-size: 16px;
+    letter-spacing:	 0.075em;
+    line-height: 1.33em;
+}
 
 h1, h2, h3, h4, h5 {
   font-family: $font-heading;
