@@ -1,13 +1,18 @@
-$size: 64px;
+
+$size-sm: 52px;
+$size-md: $size-sm + 24px;
+$size-lg: $size-md + 24px;
+
 
 .logo {
-    height: $size;
+    height: $size-sm;
     width: auto;
 
     text {
         fill: #fff;
     }
 
+    // Animtate on hover
     & .animating {
         display: none;
     }
@@ -24,11 +29,40 @@ $size: 64px;
 
     // dayton data visualization
     .text {
+        display: none;
+    }
+    // ddv.
+    .text-ddv {
         display: block;
     }
 
-    // ddv.
-    .text-ddv {
-        display: none;
+
+    @include media($tablet-portrait) {
+        height: $size-md;
+        .text {
+            display: none;
+        }
+        .text-ddv {
+            display: block;
+        }
+    }
+    @include media($tablet-landscape) {
+        height: $size-md;
+        .text {
+            display: block;
+        }
+        .text-ddv {
+            display: none;
+        }
+    }
+    @include media($desktop) {
+        height: $size-lg;
+
+        .text {
+            display: block;
+        }
+        .text-ddv {
+            display: none;
+        }
     }
 }

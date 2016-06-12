@@ -6,7 +6,8 @@
 @import 'neat/neat';
 
 // Defaults, Components, then Pages
-@import 'defaults/colors',
+@import 'defaults/breakpoints',
+        'defaults/colors',
         'defaults/typography',
         'defaults/tags',
         'components/header',
