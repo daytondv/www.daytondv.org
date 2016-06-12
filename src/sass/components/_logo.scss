@@ -1,11 +1,34 @@
-$size: 57px;
+$size: 64px;
 
 .logo {
     height: $size;
-    width: $size;
+    width: auto;
 
-    // hides the top steady svg layer and shows the animating layer
+    text {
+        fill: #fff;
+    }
+
+    & .animating {
+        display: none;
+    }
+    &:hover .animating {
+        display: block;
+    }
+
+    & .steady {
+        display: block;
+    }
     &:hover .steady {
+        display: none;
+    }
+
+    // dayton data visualization
+    .text {
+        display: block;
+    }
+
+    // ddv.
+    .text-ddv {
         display: none;
     }
 }
