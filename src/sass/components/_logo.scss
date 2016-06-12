@@ -3,10 +3,13 @@ $size-sm: 52px;
 $size-md: $size-sm + 24px;
 $size-lg: $size-md + 24px;
 
+// original size of SVG is 1025x425 pixels
+// height -> width ratio of 2.42
+$ratio: 2.43;
 
 .logo {
     height: $size-sm;
-    width: auto;
+    width: $size-sm * $ratio;
 
     text {
         fill: #fff;
@@ -19,7 +22,6 @@ $size-lg: $size-md + 24px;
     &:hover .animating {
         display: block;
     }
-
     & .steady {
         display: block;
     }
@@ -39,15 +41,17 @@ $size-lg: $size-md + 24px;
 
     @include media($tablet-portrait) {
         height: $size-md;
+        width: $size-md * $ratio;
         .text {
-            display: none;
+            display: block;
         }
         .text-ddv {
-            display: block;
+            display: none;
         }
     }
     @include media($tablet-landscape) {
         height: $size-md;
+        width: $size-md * $ratio;
         .text {
             display: block;
         }
@@ -57,7 +61,7 @@ $size-lg: $size-md + 24px;
     }
     @include media($desktop) {
         height: $size-lg;
-
+        width: $size-lg * $ratio;
         .text {
             display: block;
         }
