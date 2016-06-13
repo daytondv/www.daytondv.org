@@ -5,3 +5,14 @@ body, html {
 body {
     font-family: $font-body;
 }
+
+a {
+    color: $clr-blue;
+    cursor: pointer;
+    font-family: $font-heading;
+    text-decoration: none;
+
+    &:hover {
+        color: lighten($clr-blue, 10%);
+    }
+}

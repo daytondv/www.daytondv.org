@@ -10,6 +10,10 @@ var moment      = require('moment');
 var os          = require('os');
 var pkg         = require('./package.json');
 
+gulp.task('copyfonts', function() {
+    console.log('Copying FontAwesome fonts into fonts...');
+    gulp.src('node_modules/font-awesome/fonts/**/*').pipe(gulp.dest('src/fonts'));
+});
 
 gulp.task('dist', function() {
     console.log('Running dist task...');

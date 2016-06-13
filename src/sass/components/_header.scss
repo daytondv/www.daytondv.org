@@ -32,6 +32,11 @@ $header-transition: all 0.5s;
     flex-wrap: nowrap;
     height: 100%;
 
+    .navfooter {
+        font-size: 80%;
+        padding: 1.0em;
+    }
+
     .navheader {
         padding: 1.0em;
         text-align: right;
@@ -67,8 +72,4 @@ $header-transition: all 0.5s;
         }
     }
 
-
-
-
-
-}
+} // .navigation
