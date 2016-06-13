@@ -1,9 +1,10 @@
+$header-transition: all 0.5s;
 
 .header {
     align-items: stretch;
     background: $clr-dark;
     //background-image: linear-gradient(to bottom, rgba(0, 6, 12, 0.75), rgba(0, 0, 0, 0.75)), url(../images/unsplash-code01.jpg);
-    background-image: url(../images/unsplash-code01.jpg);
+    background-image: url(../images/unsplash-code02.jpg);
     background-position: center top;
     background-size: cover;
     color: $clr-light;
@@ -25,6 +26,7 @@
 
 .navigation {
     background: #101316;
+    background: rgba(0, 3, 6, 0.8);
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -47,16 +49,20 @@
 
             .navlink {
                 //box-sizing: border-box;
-                border-bottom: 1px solid #222;
-                color: #09c;
+                border-left: 3px solid transparent;
+                color: $clr-blue_alt;
                 display: block;
                 font-family: $font-heading;
                 padding: 1.0em 1.0em;
                 text-decoration: none;
+                transition: $header-transition;
             }
             .navlink:hover {
-                background: #222;
-                color: #0cf;
+                //background: #222;
+                //background-image: linear-gradient(to right, transparentize($clr-blue, 0.90), transparent);
+                background-image: linear-gradient(to right, transparentize($clr-light, 0.95), transparent);
+                border-left: 3px solid $clr-blue;
+                color: $clr-blue_alt;
             }
         }
     }
