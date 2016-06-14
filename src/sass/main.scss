@@ -5,6 +5,7 @@
 @import 'bourbon/bourbon';
 @import 'neat/neat';
 @import 'font-awesome';
+@import 'typeplate';
 
 // Defaults, Components, then Pages
 @import 'defaults/breakpoints',
@@ -13,5 +14,5 @@
         'defaults/tags',
         'components/header',
         'components/logo',
-        'pages/main'
+        'pages/defaults'
 ;

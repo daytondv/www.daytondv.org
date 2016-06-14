@@ -4,32 +4,14 @@ $font-heading: 'GillSans', 'Gill Sans MT', 'Gill Sans', 'Trebuchet MS', sans-ser
 $font-body: 'Times New Roman','Times','Serif';
 
 body {
-    font-size: 16px;
-    letter-spacing:	 0.075em;
-    line-height: 1.33em;
+    font-family: $font-body;
 }
 
-h1, h2, h3, h4, h5 {
-  font-family: $font-heading;
-  line-height: 1.5;
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-heading;
+    font-weight: bold;
 }
 
-h1 {
-  font-size: modular-scale(5);
-}
-
-h2 {
-  font-size: modular-scale(4);
-}
-
-h3 {
-  font-size: modular-scale(3);
-}
-
-h4 {
-  font-size: modular-scale(2);
-}
-
-h5 {
-  font-size: modular-scale(1);
+h1, h2 {
+    color: $clr-red_alt;
 }
