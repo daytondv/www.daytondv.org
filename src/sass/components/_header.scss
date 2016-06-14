@@ -1,4 +1,4 @@
-$header-transition: all 0.5s;
+$header-transition: all 0.3s;
 
 .header {
     align-items: stretch;
@@ -54,7 +54,7 @@ $header-transition: all 0.5s;
             flex-grow: 1;
 
             .navlink {
-                //box-sizing: border-box;
+                background: transparent;
                 border-left: 3px solid transparent;
                 color: $clr-blue_alt;
                 display: block;
@@ -64,9 +64,7 @@ $header-transition: all 0.5s;
                 transition: $header-transition;
             }
             .navlink:hover {
-                //background: #222;
-                //background-image: linear-gradient(to right, transparentize($clr-blue, 0.90), transparent);
-                background-image: linear-gradient(to right, transparentize($clr-light, 0.95), transparent);
+                background: transparentize($clr-light, 0.93);
                 border-left: 3px solid $clr-blue;
                 color: $clr-blue_alt;
             }
