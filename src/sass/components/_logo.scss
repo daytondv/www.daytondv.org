@@ -1,21 +1,9 @@
 
-$size-sm: 52px;
-$size-md: $size-sm + 24px;
-$size-lg: $size-md + 24px;
-
 // original size of SVG is 1025x425 pixels
 // height -> width ratio of 2.42
 $ratio: 2.43;
 
-.logo {
-    height: $size-sm;
-    margin: 1.0em;
-    width: $size-sm * $ratio;
-
-    text {
-        fill: #fff;
-    }
-
+@mixin animateOnHover() {
     // Animtate on hover
     & .animating {
         display: none;
@@ -29,6 +17,12 @@ $ratio: 2.43;
     &:hover .steady {
         display: none;
     }
+}
+
+@mixin baseLogoStyles() {
+    text {
+        fill: #fff;
+    }
 
     // dayton data visualization
     .text {
@@ -39,10 +33,7 @@ $ratio: 2.43;
         display: block;
     }
 
-
     @include media($tablet-portrait) {
-        height: $size-md;
-        width: $size-md * $ratio;
         .text {
             display: block;
         }
@@ -51,8 +42,6 @@ $ratio: 2.43;
         }
     }
     @include media($tablet-landscape) {
-        height: $size-md;
-        width: $size-md * $ratio;
         .text {
             display: block;
         }
@@ -61,13 +50,61 @@ $ratio: 2.43;
         }
     }
     @include media($desktop) {
-        height: $size-lg;
-        width: $size-lg * $ratio;
         .text {
             display: block;
         }
         .text-ddv {
             display: none;
         }
+    }
+}
+
+$logo-sm: 50px;
+$logo-md: 80px;
+$logo-lg: 128px;
+.headerlogo .logo {
+    height: $logo-sm;
+    margin: 1.0em;
+    width: $logo-sm * $ratio;
+
+    @include animateOnHover();
+    @include baseLogoStyles();
+
+    @include media($tablet-portrait) {
+        height: $logo-md;
+        width: $logo-md * $ratio;
+    }
+    @include media($tablet-landscape) {
+        height: $logo-md;
+        width: $logo-md * $ratio;
+    }
+    @include media($desktop) {
+        height: $logo-lg;
+        width: $logo-lg * $ratio;
+    }
+}
+
+$navlogo-sm: 50px;
+$navlogo-md: 60px;
+$navlogo-lg: 60px;
+.navbar__logo .logo {
+    height: $navlogo-sm;
+    margin: 0.25em 1.0em;
+    width: $navlogo-sm * $ratio;
+
+    @include animateOnHover();
+    @include baseLogoStyles();
+
+    @include media($tablet-portrait) {
+        height: $navlogo-md;
+        width: $navlogo-md * $ratio;
+    }
+    @include media($tablet-landscape) {
+        height: $navlogo-md;
+        width: $navlogo-md * $ratio;
+    }
+    @include media($desktop) {
+        height: $navlogo-lg;
+        width: $navlogo-lg * $ratio;
     }
 }

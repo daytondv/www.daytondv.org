@@ -1,0 +1,33 @@
+
+.navbar {
+    align-items: center;
+    background: $clr-dark;
+    border-bottom: 1px solid $clr-light;
+    box-shadow: 0 3px 1.0em #000;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.navbar__logo {
+    flex-grow: 1;
+}
+
+.navbar__menu {
+    align-items:center;
+    align-self:stretch;
+    color: darken($clr-light, 5%);
+    display:flex;
+    padding: 1.0em;
+    text-shadow: 1px 1px 0 #000;
+
+    &:hover {
+        background-color: transparentize($clr-light, 0.95);
+        color: $clr-light;
+    }
+
+    .icon {
+        margin-right: 0.5em;
+    }
+}
