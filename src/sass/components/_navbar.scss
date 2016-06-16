@@ -2,8 +2,11 @@
 .navbar {
     align-items: center;
     background: $clr-dark;
+    //background-image: linear-gradient(to bottom, $clr-dark, #000);
+    background: $clr-dark url(../images/dayton-skyline-banner.png) top center no-repeat;
+    background-size: cover;
     border-bottom: 1px solid $clr-light;
-    box-shadow: 0 3px 1.0em #000;
+    box-shadow: 0 0 0.95em transparentize(#000, 0.35);
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
