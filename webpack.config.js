@@ -5,10 +5,10 @@ var NODE_MODULES = __dirname + '/node_modules';
 
 module.exports = {
     context: __dirname + '/src/javascript',
-    entry: './app.js',
+    entry: './application.js',
     output: {
         path: __dirname + '/src/scripts',
-        filename: 'site.js'
+        filename: 'application.js'
     },
     module: {
         loaders: [{
@@ -17,15 +17,12 @@ module.exports = {
             loader: 'babel-loader'
         }]
     },
-    plugins: [
-        new webpack.ProvidePlugin({
-            $: 'jquery',
-            jQuery: 'jquery'
-        })
-    ],
     resolve: {
         alias: {
-            jquery: NODE_MODULES + '/jquery/dist/jquery.js'
+            pushMenu: NODE_MODULES + '/push-menu/dist/js/jquery.pushMenu.min.js'
         }
+    },
+    externals: {
+        jquery: 'jQuery'
     }
 };

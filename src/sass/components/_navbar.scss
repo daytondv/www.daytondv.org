@@ -34,3 +34,13 @@
         margin-right: 0.5em;
     }
 }
+
+.navpanel {
+    background: $clr-dark;
+    bottom: 100%; // -> 0
+    color: $clr-light;
+    left: 100%; // -> 0
+    position: absolute;
+    right: 0;
+    top: 0;
+}

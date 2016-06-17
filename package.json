@@ -10,7 +10,7 @@
     "jekyll": "jekyll build --source src --destination build",
     "js": "webpack -d --progress --colors",
     "presass": "gulp copyfonts",
-    "sass": "node-sass --include-path src/sass --include-path node_modules/font-awesome/scss --include-path node_modules/typeplate-starter-kit/dist/css src/sass/main.scss src/styles/site.css",
+    "sass": "node-sass --include-path src/sass --include-path node_modules src/sass/main.scss src/styles/site.css",
     "postsass": "postcss -r -c postcss.config.json src/styles/site.css && cssmin src/styles/site.css > src/styles/site.min.css",
     "start": "npm run clean && parallelshell \"browser-sync start --config bs-config.js\" \"npm run watch\"",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "jquery": "^2.1.4",
+    "push-menu": "^2.0.8",
     "typeplate-starter-kit": "^3.0.2"
   },
   "devDependencies": {

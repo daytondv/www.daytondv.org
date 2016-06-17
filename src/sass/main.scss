@@ -4,8 +4,9 @@
 @import 'reset/reset';
 @import 'bourbon/bourbon';
 @import 'neat/neat';
-@import 'font-awesome';
-@import 'typeplate';
+@import 'font-awesome/css/font-awesome';
+@import 'typeplate-starter-kit/dist/css/typeplate';
+@import 'push-menu/dist/css/stylesheet';
 
 // Defaults, Components, then Pages
 @import 'defaults/breakpoints',

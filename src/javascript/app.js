@@ -1,4 +1,0 @@
-
-// Global Dependencies
-require('jquery');
-
