@@ -115,6 +115,7 @@ $footlogo-lg: 256px;
 .footerlogo .logo {
     height: $footlogo-sm;
     margin: 1.0em;
+    margin-top: 0;
     width: $footlogo-sm * $ratio;
 
     @include animateOnHover();
