@@ -1,7 +1,33 @@
-.site-footer {
+.footer {
     background: $clr-dark url(../images/dayton-skyline-banner.png) bottom center no-repeat;
-    background-size: cover;
+    background-size: contain;
     border-top: 1px solid #fff;
     color: $clr-light;
     min-height: 400px;
+
+}
+
+.footer__sections {
+    @include outer-container(100%);
+
+    section {
+        @include span-columns(12);
+
+        @include media($tablet-portrait) {
+            @include span-columns(6);
+            @include omega(2n);
+        }
+        @include media ($tablet-landscape) {
+            @include span-columns(4);
+            @include omega(3n);
+        }
+        @include media ($desktop) {
+            @include span-columns(4);
+            @include omega(3n);
+        }
+    }
+}
+
+.footer__copy {
+    text-align: center;
 }
