@@ -7,12 +7,12 @@ body {
 }
 
 a {
-    color: $clr-blue;
+    color: lighten($clr-blue, 10%);
     cursor: pointer;
     font-family: $font-heading;
     text-decoration: none;
 
     &:hover {
-        color: lighten($clr-blue, 10%);
+        color: lighten($clr-blue, 20%);
     }
 }

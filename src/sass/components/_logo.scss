@@ -26,11 +26,11 @@ $ratio: 2.43;
 
     // dayton data visualization
     .text {
-        display: none;
+        display: block;
     }
     // ddv.
     .text-ddv {
-        display: block;
+        display: none;
     }
 
     @include media($tablet-portrait) {

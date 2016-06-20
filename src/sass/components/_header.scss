@@ -10,18 +10,50 @@ $header-transition: all 0.3s;
     border-bottom: 1px solid #fff;
     color: $clr-light;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
-    //filter: grayscale(70%);
 
-    min-height: 400px;
+    @include media($tablet-portrait) {
+        flex-direction: row;
+    }
+    @include media ($tablet-landscape) {
+        flex-direction: row;
+    }
+    @include media ($desktop) {
+        flex-direction: row;
+    }
 
     .feature {
         flex-grow: 1;
+        text-align: center;
+
+        @include media($tablet-portrait) {
+            text-align: left;
+        }
+        @include media ($tablet-landscape) {
+            text-align: left;
+        }
+        @include media ($desktop) {
+            text-align: left;
+        }
     }
 
+    $nav-width: 450px;
     .nav-ctr {
-        width: 400px;
+        flex-grow: 1;
+
+        @include media($tablet-portrait) {
+            flex-grow: 0;
+            width: $nav-width;
+        }
+        @include media ($tablet-landscape) {
+            flex-grow: 0;
+            width: $nav-width;
+        }
+        @include media ($desktop) {
+            flex-grow: 0;
+            width: $nav-width;
+        }
     }
 }
 
@@ -36,6 +68,7 @@ $header-transition: all 0.3s;
     .navfooter {
         font-size: 80%;
         padding: 1.0em;
+        text-align: center;
     }
 
     .navheader {
@@ -56,7 +89,7 @@ $header-transition: all 0.3s;
             .navlink {
                 background: transparent;
                 border-left: 3px solid transparent;
-                color: $clr-blue_alt;
+                color: lighten($clr-blue, 10%);
                 display: block;
                 font-family: $font-heading;
                 padding: 1.0em 1.0em;
@@ -65,8 +98,8 @@ $header-transition: all 0.3s;
             }
             .navlink:hover {
                 background: transparentize($clr-light, 0.93);
-                border-left: 3px solid $clr-blue;
-                color: $clr-blue_alt;
+                border-left: 3px solid lighten($clr-blue, 10%);
+                color: lighten($clr-blue, 25%);
             }
         }
     }
