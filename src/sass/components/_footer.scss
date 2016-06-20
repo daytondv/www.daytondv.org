@@ -1,3 +1,8 @@
+
+@mixin footerSectionStyles {
+    padding: 1.0em;
+}
+
 .footer {
     background: $clr-dark url(../images/dayton-skyline-banner.png) bottom center no-repeat;
     background-size: contain;
@@ -18,29 +23,52 @@
             @include omega(2n);
         }
         @include media ($tablet-landscape) {
-            @include span-columns(4);
-            @include omega(3n);
+            @include span-columns(3);
+            @include omega(4n);
         }
         @include media ($desktop) {
-            @include span-columns(4);
-            @include omega(3n);
+            @include span-columns(3);
+            @include omega(4n);
         }
     }
 }
 
+.footer__about {
+    @include footerSectionStyles();
+}
+
 .footer__nav {
-    text-align: center;
+    @include footerSectionStyles();
+
+    ul {
+        border-left: 3px dotted lighten($clr-dark, 5%);
+        margin-left: 1.0em;
+        padding-left: 0.5em;
+    }
 
     a {
-        background: lighten($clr-dark, 5%);
-        border-radius: 0.25em;
         display: inline-block;
         margin: 0.25em 0;
         padding: 0.25em 0.5em;
 
         &:hover {
-            background: lighten($clr-dark, 15%);
         }
+    }
+}
+
+.footer__logos {
+
+    $logo-size: 23px;
+    font-size: $logo-size;
+    @include footerSectionStyles();
+
+    a {
+        color: #fff;
+        margin: 0 0.25em;
+    }
+
+    img {
+        height: $logo-size;
     }
 }
 

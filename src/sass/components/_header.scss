@@ -3,7 +3,7 @@ $header-transition: all 0.3s;
 .header {
     align-items: stretch;
     background: $clr-dark;
-    //background-image: linear-gradient(to bottom, rgba(0, 6, 12, 0.75), rgba(0, 0, 0, 0.75)), url(../images/unsplash-code01.jpg);
+    background-attachment: fixed;
     background-image: url(../images/unsplash-code02-darken.jpg);
     background-position: center top;
     background-size: cover;

@@ -110,12 +110,12 @@ $navlogo-lg: 60px;
 }
 
 $footlogo-sm: 72px;
-$footlogo-md: 128px;
-$footlogo-lg: 256px;
-.footerlogo .logo {
+$footlogo-md: 96px;
+$footlogo-lg: 128px;
+.footer__logo .logo {
     height: $footlogo-sm;
-    margin: 1.0em;
-    margin-top: 0;
+    margin: 0;
+    margin-bottom: 1.0em;
     width: $footlogo-sm * $ratio;
 
     @include animateOnHover();
