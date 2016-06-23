@@ -2,8 +2,10 @@
 
 // Libraries
 require('jquery');
-require('pushMenu');
+
+import { Navbar } from './navbar';
 
 // Application
-const navbar = require('./navbar');
-navbar.init();
+
+// ever page has a navbar... just create one on load
+new Navbar();

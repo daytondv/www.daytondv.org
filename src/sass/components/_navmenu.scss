@@ -1,0 +1,27 @@
+
+$navmenu-transition: all 0.3s;
+
+.navmenu {
+    background: $clr-blue-dk;
+    bottom: 0;
+    box-shadow: 0 0 0.5em transparentize(#000, 0.5);
+    left: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: $navmenu-transition;
+}
+
+.navmenu.open {
+    left: 0;
+
+    @include media($tablet-portrait) {
+        left: 25%;
+    }
+    @include media ($tablet-landscape) {
+        left: 50%;
+    }
+    @include media ($desktop) {
+        left: 50%;
+    }
+}

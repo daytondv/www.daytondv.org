@@ -5,14 +5,17 @@
 
 <body>
 
-    {% include header.html %}
-    <!-- {% include navbar.html %} -->
+    <div class="page">
+        {% include navbar.html %}
 
-    <div class="content">
-        {{ content }}
+        <div class="content">
+            {{ content }}
+        </div>
+
+        {% include footer.html %}
     </div>
 
-    {% include footer.html %}
+    {% include navmenu.html %}
 
     {% include javascript.html %}
 </body>

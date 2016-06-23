@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 ---
 
 DDV - Griddle and Cycling
