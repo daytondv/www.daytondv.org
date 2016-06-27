@@ -1,10 +1,18 @@
 $header-transition: all 0.3s;
 
+@mixin clearBackground() {
+    background: transparent;
+}
+@mixin darkAndTransparentBackground() {
+    background: #101316;
+    background: rgba(0, 3, 6, 0.8);
+}
+
 .header {
     align-items: stretch;
     background: $clr-dark;
     background-attachment: fixed;
-    background-image: url(../images/unsplash-code02-darken.jpg);
+    background-image: url(../images/unsplash-code01.jpg);
     background-position: center top;
     background-size: cover;
     border-bottom: 1px solid #fff;
@@ -24,16 +32,20 @@ $header-transition: all 0.3s;
     }
 
     .feature {
+        @include darkAndTransparentBackground();
         flex-grow: 1;
         text-align: center;
 
         @include media($tablet-portrait) {
+            @include clearBackground();
             text-align: left;
         }
         @include media ($tablet-landscape) {
+            @include clearBackground();
             text-align: left;
         }
         @include media ($desktop) {
+            @include clearBackground();
             text-align: left;
         }
     }
@@ -58,8 +70,7 @@ $header-transition: all 0.3s;
 }
 
 .navigation {
-    background: #101316;
-    background: rgba(0, 3, 6, 0.8);
+    @include darkAndTransparentBackground();
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
