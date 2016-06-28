@@ -1,8 +1,8 @@
 
 .navbar {
     align-items: center;
-    background: $clr-dark;
-    background-image: linear-gradient(to bottom, $clr-dark, #000);
+    background: $clr-hlight_lt;
+    //background-image: linear-gradient(to bottom, $clr-dark, #000);
     border-bottom: 1px solid $clr-light;
     box-shadow: 0 0 0.95em transparentize(#000, 0.35);
     display: flex;

@@ -1,9 +1,8 @@
-$clr-light: #e0e3e6;
-$clr-dark: #202326;
-$clr-red: #ED2224;
-$clr-red_alt: #A00708;
-$clr-blue: #0876BA;
-$clr-blue_alt: #0F69A0;
-$clr-blue_dk: #111D1F;
-$clr-yellow: #F0ED3A;
-$clr-yellow_dk: #EBD3A3;
+$clr-light: #FFFCF9;
+$clr-dark: #2A2D34;
+
+$clr-hlight_lt: #ED2224;
+$clr-hlight_dk: darken($clr-hlight_lt, 23%);
+
+$clr-hlight2_lt: #30C5FF;
+$clr-hlight2_dk: #74A4BC;

@@ -100,7 +100,6 @@ $header-transition: all 0.3s;
             .navlink {
                 background: transparent;
                 border-left: 3px solid transparent;
-                color: lighten($clr-blue, 10%);
                 display: block;
                 font-family: $font-heading;
                 padding: 1.0em 1.0em;
@@ -109,9 +108,16 @@ $header-transition: all 0.3s;
             }
             .navlink:hover {
                 background: transparentize($clr-light, 0.93);
-                border-left: 3px solid lighten($clr-blue, 10%);
-                color: lighten($clr-blue, 25%);
+                border-left: 3px solid $clr-hlight2_lt;
             }
+        }
+    }
+
+    a {
+        color: $clr-hlight2_lt;
+
+        &:hover {
+            color: lighten($clr-hlight2_lt, 15%);
         }
     }
 
