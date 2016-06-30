@@ -7,6 +7,7 @@ reports
 *.swp
 .idea/
 .idea/workspace.xml
+.jekyll-metadata
 .tmp
 .sass-cache
 .DS_Store

@@ -7,7 +7,7 @@
     "clean": "rimraf \"build/*\"",
     "deploy": "npm run dist; gulp publish",
     "dist": "npm run clean && npm run js && npm run sass && npm run jekyll && gulp dist",
-    "jekyll": "jekyll build --source src --destination build",
+    "jekyll": "jekyll build --incremental --source src --destination build",
     "js": "webpack -d --progress --colors",
     "presass": "gulp copyfonts",
     "sass": "node-sass --include-path src/sass --include-path node_modules src/sass/main.scss src/styles/site.css",

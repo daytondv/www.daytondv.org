@@ -6,7 +6,7 @@ permalink: /events/
 
 <h1>Events</h1>
 
-Welcome to the Dayton Data Visualization group! Many thanks to Ryan Lanciaux and Matt Anderson for volunteering to share at our May 12th event! This will be a lunchtime meetup in Beavercreek at Applied Information Sciences.
+Welcome to the Dayton Data Visualization group! Many thanks to Ryan Lanciaux and Matt Anderson for volunteering to share at our May 12th event! This will be a lunchtime [meetup](http://www.google.com) in Beavercreek at Applied Information Sciences.
 
 - 11:30am: Pizza, Sponsors, and Announcements
 
