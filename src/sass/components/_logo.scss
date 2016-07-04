@@ -109,10 +109,43 @@ $navlogo-lg: 60px;
     }
 }
 
+$menulogo-sm: 50px;
+$menulogo-md: 60px;
+$menulogo-lg: 60px;
+.navmenu__logo .logo {
+    height: $menulogo-sm;
+    margin: 0.25em 1.0em;
+    width: $menulogo-sm * $ratio;
+    fill: $clr-hlight_lt;
+
+    // dayton data visualization
+    .text {
+        display: none;
+    }
+    // ddv.
+    .text-ddv {
+        display: block;
+    }
+
+    @include media($tablet-portrait) {
+        height: $menulogo-md;
+        width: $menulogo-md * $ratio;
+    }
+    @include media($tablet-landscape) {
+        height: $menulogo-md;
+        width: $menulogo-md * $ratio;
+    }
+    @include media($desktop) {
+        height: $menulogo-lg;
+        width: $menulogo-lg * $ratio;
+    }
+}
+
 $footlogo-sm: 72px;
 $footlogo-md: 96px;
 $footlogo-lg: 128px;
 .footer__logo .logo {
+
     height: $footlogo-sm;
     margin: 0;
     margin-bottom: 1.0em;
@@ -120,12 +153,17 @@ $footlogo-lg: 128px;
 
     @include animateOnHover();
     @include baseLogoStyles();
-
+    .bars {
+        fill: $clr-dark;
+    }
+    text {
+        fill: $clr-dark;
+    }
     .text {
-        display: block;
+        display: none;
     }
     .text-ddv {
-        display: none;
+        display: block;
     }
 
     @include media($tablet-portrait) {

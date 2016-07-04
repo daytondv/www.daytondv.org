@@ -1,10 +1,11 @@
 
 .navbar {
     align-items: center;
-    background: $clr-dark;
+    //background: $clr-dark;
     //background-image: linear-gradient(to bottom, $clr-dark, #000);
+    background: darken($clr-hlight2_lt, 35%);
     border-bottom: 1px solid $clr-light;
-    box-shadow: 0 0 0.95em transparentize(#000, 0.35);
+    //box-shadow: 0 0 0.95em transparentize(#000, 0.35);
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -22,7 +23,6 @@
     display:flex;
     padding: 1.0em;
     text-decoration: none;
-    text-shadow: 1px 1px 0 #000;
 
     &:hover {
         background-color: transparentize($clr-light, 0.95);
