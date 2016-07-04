@@ -20,9 +20,8 @@ $ratio: 2.43;
 }
 
 @mixin baseLogoStyles() {
-    text {
-        fill: #fff;
-    }
+
+    fill: $clr-light;
 
     // dayton data visualization
     .text {
