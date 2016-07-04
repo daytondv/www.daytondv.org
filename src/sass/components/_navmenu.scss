@@ -2,11 +2,10 @@
 $navmenu-transition: all 0.3s;
 
 .navmenu {
-    background: $clr-light;
-    //background-image: linear-gradient(to bottom, $clr-dark, darken($clr-dark, 7%));
-    background-image: linear-gradient(to bottom, #e3e3e3 0%, #c1c2c4 50%);
+    background: darken($clr-hlight2_lt, 35%);
+
     box-shadow: 0 0 0.75em transparentize(#000, 0.5);
-    color: $clr-dark;
+    color: $clr-light;
     height: 100%;
     left: 100%;
     min-width: 350px;
@@ -27,16 +26,16 @@ $navmenu-transition: all 0.3s;
             }
             .navlink:hover {
                 background: transparentize($clr-light, 0.90);
-                border-left: 3px solid $clr-hlight_lt;
+                border-left: 3px solid $clr-hlight2_lt;
             }
         }
     }
 
     a {
-        color: $clr-hlight_dk;
+        color: $clr-light;
 
         &:hover {
-            color: $clr-hlight_lt;
+            color: #fff;
         }
     }
 }
@@ -67,8 +66,8 @@ $navmenu-transition: all 0.3s;
     }
 
     a {
-        color: $clr-dark;
-        padding: 1.0em;
+        color: $clr-light;
+        padding: 1.5em;
         text-decoration: none;
 
         i {
@@ -77,6 +76,6 @@ $navmenu-transition: all 0.3s;
     }
     a:hover {
         background-color: transparentize($clr-light, 0.90);
-        color: lighten($clr-dark, 5%);
+        color: #fff;
     }
 }
