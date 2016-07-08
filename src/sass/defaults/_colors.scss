@@ -1,8 +1,10 @@
-$clr-light: #FFFCF9;
-$clr-dark: #2A2D34;
 
 $clr-hlight_lt: #ED2224;
 $clr-hlight_dk: darken($clr-hlight_lt, 23%);
 
 $clr-hlight2_lt: #30C5FF;
 $clr-hlight2_dk: #74A4BC;
+
+$clr-light: #FFFCF9;
+$clr-dark: #2A2D34;
+$clr-dark-alt: darken($clr-hlight2_lt, 35%);

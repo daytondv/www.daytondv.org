@@ -8,12 +8,25 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    color: $clr-dark-alt;
     font-family: $font-heading;
     font-weight: bold;
 }
 
-h1, h2 {
-    color: $clr-hlight2_dk;
+h1 {
+    border-bottom: 1px solid $clr-hlight2_dk;
+    font-size: 3.0em;
+    margin-bottom: 0.5em;
+    text-shadow: 0px 1px 0 #fff;
+}
+h2 {
+    font-size: 2.0em;
+}
+h3 {
+    font-size: 1.5em;
+}
+h4, h5, h6 {
+    font-size: 1.0em;
 }
 
 p {
