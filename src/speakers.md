@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Speaking
-permalink: /speaking/
+permalink: /speakers/
 ---
 
-<h1>Speaking</h1>
+<h1>Speakers</h1>
