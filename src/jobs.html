@@ -1,0 +1,18 @@
+---
+layout: default
+title: Job Board
+permalink: /jobs/
+---
+
+<h1>DDV Job Board</h1>
+<p>
+    Check out the awesome jobs below in the Dayton area. If you have a job to
+    post, please contact Michael Bowman at <a href="mailto://bowmanmc@gmail.com">bowmanmc@gmail.com</a>
+</p>
+
+{% for job in site.jobs %}
+<div class="joblist-job">
+    <h2><a class="item-link" href="{{ job.url | prepend: site.baseurl }}">{{ job.title }}</a></h2>
+    <p>{{ job.overview }}</p>
+</div>
+{% endfor %}

@@ -12,5 +12,11 @@ url: "http://www.daytondv.com"
 twitter_username: daytondv
 github_username:  bowmanmc
 
+# Collections
+collections:
+    jobs:
+        output: true
+        permalink: /job/:path/
+
 # Build settings
 markdown: kramdown
