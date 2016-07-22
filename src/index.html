@@ -5,13 +5,14 @@ layout: home
 <div class="home">
 
     <section class="home__main">
-        <h2>Next Event: August 11th</h2>
-        <h3>DDV - Griddle and Cycling</h3>
-        <p>Welcome to the Dayton Data Visualization group! Many thanks to Ryan
-           Lanciaux and Matt Anderson for volunteering to share at our May 12th
-           event! This will be a lunchtime meetup in Beavercreek at Applied
-           Information Sciences.
-        </p>
+
+        {% for event in site.categories.events | first %}
+            <h2>Next Event: {{ event.day }}</h2>
+            <h3><a href="{{ event.url }}">{{ event.title }}</a></h3>
+            <p>{{ event.description }}</p>
+        {% endfor %}
+
+        <hr />
 
         <h2>Get Involved!</h2>
         <p>
@@ -19,6 +20,13 @@ layout: home
             great way to give your resume a boost or pickup a new skill. Here
             are some options:
             <ul>
+                <li><strong>Come to an event!</strong> Come hang out with us and
+                    meet people in the area doing work in the data visualization field.
+                    We always have excellent speakers, food, and swag. Best of all,
+                    most of our events are free! Join us on
+                    <a href="http://meetup.com/daytondv">meetup.com</a>
+                    and RSVP for the next event.
+                </li>
                 <li>
                     <strong>Help us maintain this site!</strong> We need help generating content, fixing
                     bugs, and adding features. Check out our current list of
