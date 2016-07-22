@@ -4,6 +4,7 @@ title:  "Tufte, Datazar, and D3.js"
 date:   2016-07-11 11:30:00 -0500
 category: events
 day: Thursday, August 11th
+rsvp: http://www.meetup.com/daytondv/events/228787593
 description: "Many thanks to Amanda Cinnamon and Aman Tsegai, who will be presenting at our
 August meetup. Amanda recently took an Edward Tufte workshop on Data Visualization principles
 and will share what she learned with the group. Aman, co-founder and CEO of Datazar, will be

@@ -1,0 +1,25 @@
+
+.button {
+    background-color: $clr-hlight_lt;
+    background-image: linear-gradient(to bottom, lighten($clr-hlight_lt, 5%), $clr-hlight_lt);
+    border: none;
+    border-radius: 0.35em;
+    color: $clr-light;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 28px;
+    letter-spacing: 0.075em;
+    padding: 0.5em 1.0em;
+    text-decoration: none;
+    vertical-align: middle;
+
+    &:hover {
+        background-color: lighten($clr-hlight_lt, 7%);
+        background-image: linear-gradient(to bottom, lighten($clr-hlight_lt, 7%), lighten($clr-hlight_lt, 3%));
+        color: #fff;
+    }
+
+    img {
+        height: 20px;
+    }
+}

@@ -6,6 +6,14 @@
     @include outer-container(100%);
 }
 
+.home__event {
+    @include outer-container(100%);
+
+    .button {
+        float: right;
+    }
+}
+
 .home__main {
     @include span-columns(12);
 
