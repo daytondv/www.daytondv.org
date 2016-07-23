@@ -7,7 +7,7 @@ layout: home
     <section class="home__main">
 
         {% for event in site.categories.events | first %}
-        <div class="home__event">
+        <div class="event__desc">
             <h2>Next Event: {{ event.day }}</h2>
             <h3><a href="{{ event.url }}">{{ event.title }}</a></h3>
             <p>{{ event.description }}</p>
