@@ -6,14 +6,10 @@ permalink: /news/
 <div class="news">
 
     <h1 class="page-heading">News</h1>
-    {% for event in site.categories.events | first %}
-        <div class="event__desc">
-            <h2>Next Event: {{ event.day }}</h2>
-            <h3><a href="{{ event.url }}">{{ event.title }}</a></h3>
-            <p>{{ event.description }}</p>
-            <a class="button" href="{{ event.rsvp }}">
-                <img src="/images/meetup-logo.svg" /> RSVP
-            </a>
+    {% for news in site.categories.news %}
+        <div class="news__desc">
+            <h2><a href="{{ news.url }}">{{ news.title }}</a></h3>
+            {{ news.content }}
         </div>
     {% endfor %}
 

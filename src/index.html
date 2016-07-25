@@ -51,7 +51,11 @@ layout: home
     </section>
 
     <section class="home__sidebar">
-        <h2>What's New</h2>
+        <h2>DDV News</h2>
+        {% for news in site.categories.news %}
+            <h3>{{ news.title }}</h3>
+            {{ news.content }}
+        {% endfor %}
     </section>
 
 </div>
