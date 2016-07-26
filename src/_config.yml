@@ -10,13 +10,16 @@ description: Dayton Data Visualization Group
 baseurl: ""
 url: "http://www.daytondv.com"
 twitter_username: daytondv
-github_username:  bowmanmc
+github_username:  daytondv
 
 # Collections
 collections:
     jobs:
         output: true
         permalink: /job/:path/
+    sponsors:
+        output: true
+        permalink: /sponsor/:path/
 
 # Build settings
 markdown: kramdown

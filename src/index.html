@@ -56,6 +56,15 @@ layout: home
             <h3>{{ news.title }}</h3>
             {{ news.content }}
         {% endfor %}
+
+        <h2>Sponsors</h2>
+        {% for sponsor in site.sponsors %}
+        <div class="home__sponsor">
+            <div class="sponsor__title"><a href="{{ sponsor.url }}">{{ sponsor.title }}</a></div>
+            <img src="{{ sponsor.logo_sm }}" class="sponsor__logo-sm" />
+            <p>{{ sponsor.overview }}</p>
+        </div>
+        {% endfor %}
     </section>
 
 </div>
