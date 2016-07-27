@@ -21,10 +21,11 @@
   },
   "gh-pages-deploy": {
     "staticpath": "dist",
-    "cname": "nope.org",
+    "cname": "daytondv.org",
     "prep": [
       "dist"
-    ]
+    ],
+    "noprompt": true
   },
   "dependencies": {
     "jquery": "^2.1.4",
