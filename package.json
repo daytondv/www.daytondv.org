@@ -5,7 +5,7 @@
   "author": "bowmanmc",
   "scripts": {
     "clean": "rimraf \"build/*\"",
-    "deploy": "npm run dist; gulp publish",
+    "deploy": "gh-pages-deploy",
     "dist": "npm run clean && npm run js && npm run sass && npm run jekyll && gulp dist",
     "jekyll": "jekyll build --source src --destination build",
     "js": "webpack -d --progress --colors",
@@ -19,6 +19,13 @@
     "watch:js": "webpack -d --progress --colors --watch",
     "watch:sass": "nodemon -e scss -w src/sass -x \"npm run sass\""
   },
+  "gh-pages-deploy": {
+    "staticpath": "dist",
+    "cname": "nope.org",
+    "prep": [
+      "dist"
+    ]
+  },
   "dependencies": {
     "jquery": "^2.1.4",
     "typeplate-starter-kit": "^3.0.2"
@@ -30,6 +37,7 @@
     "browser-sync": "*",
     "cssmin": "^0.4.3",
     "del": "^2.2.0",
+    "gh-pages-deploy": "^0.4.2",
     "gulp": "^3.9.0",
     "http-proxy-middleware": "^0.9.0",
     "moment": "^2.10.6",
