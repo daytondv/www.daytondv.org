@@ -19,6 +19,10 @@ a {
     }
 }
 
+article, .article {
+    margin-bottom: 3.0em;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: $clr-dark;
 }
@@ -30,7 +34,7 @@ h1 {
 hr {
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid $clr-hlight2_lt;
+    border-bottom: 1px solid $clr-hlight2_dk;
     box-shadow: 0 1px 0 $clr-light;
     height: 0px;
     margin: 1.0em 0;
