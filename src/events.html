@@ -14,6 +14,11 @@ permalink: /events/
             RSVP
         </a>
     </div>
+
+    {% if forloop.last == false %}
+        <hr />
+    {% endif %}
+
     {% endfor %}
 
 </div>
