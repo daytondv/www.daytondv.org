@@ -8,16 +8,13 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: $clr-dark-alt;
     font-family: $font-heading;
     font-weight: bold;
     margin-bottom: 0.5em;
 }
 
 h1 {
-    border-bottom: 1px solid $clr-hlight2_dk;
     font-size: 3.0em;
-    text-shadow: 0px 1px 0 #fff;
 }
 h2 {
     font-size: 2.0em;

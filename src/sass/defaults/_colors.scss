@@ -8,3 +8,6 @@ $clr-hlight2_dk: #74A4BC;
 $clr-light: #FFFCF9;
 $clr-dark: #2A2D34;
 $clr-dark-alt: darken($clr-hlight2_lt, 35%);
+
+$clr-links-out: mix(#000, $clr-hlight2_lt, 35%);
+$clr-links-over: mix(#000, $clr-hlight2_lt, 20%);

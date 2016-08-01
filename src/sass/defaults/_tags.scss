@@ -9,21 +9,29 @@ body {
 }
 
 a {
-    //color: lighten($clr-hlight_lt, 10%);
-    color: $clr-hlight_lt;
+    color: $clr-links-out;
     cursor: pointer;
     font-family: $font-heading;
     text-decoration: underline;
 
     &:hover {
-        color: lighten($clr-hlight_lt, 10%);
+        color: $clr-links-over;
     }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $clr-dark;
+}
+
+h1 {
+    border-bottom: 1px solid $clr-dark;
 }
 
 hr {
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid $clr-hlight2_dk;
+    border-bottom: 1px solid $clr-hlight2_lt;
+    box-shadow: 0 1px 0 $clr-light;
     height: 0px;
     margin: 1.0em 0;
 }

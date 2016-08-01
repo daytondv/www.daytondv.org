@@ -1,7 +1,7 @@
 
 .button {
-    background-color: $clr-hlight_lt;
-    background-image: linear-gradient(to bottom, lighten($clr-hlight_lt, 5%), $clr-hlight_lt);
+    background-color: $clr-links-out;
+    background-image: linear-gradient(to bottom, lighten($clr-links-out, 5%), $clr-links-out);
     border: none;
     border-radius: 0.35em;
     color: $clr-light;
@@ -14,8 +14,8 @@
     vertical-align: middle;
 
     &:hover {
-        background-color: lighten($clr-hlight_lt, 7%);
-        background-image: linear-gradient(to bottom, lighten($clr-hlight_lt, 7%), lighten($clr-hlight_lt, 3%));
+        background-color: $clr-links-over;
+        background-image: linear-gradient(to bottom, lighten($clr-links-over, 7%), lighten($clr-links-over, 3%));
         color: #fff;
     }
 

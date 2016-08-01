@@ -12,7 +12,12 @@
     padding-top: 1.5em;
 
     a {
+        color: mix($clr-light, $clr-hlight_lt, 10%);
         text-decoration: none;
+
+        &:hover {
+            color: mix($clr-light, $clr-hlight_lt, 35%);
+        }
     }
 }
 
