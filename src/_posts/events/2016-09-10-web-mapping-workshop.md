@@ -29,7 +29,7 @@ Stuff to bring or do beforehand:
 
 Lunch will be provided (please let us know if you have any dietary restrictions).
 
-All attendees are expected to abide by the OpenDayton [Code of Conduct](http://opendayton.org/#codeofconduct).
+All attendees are expected to abide by the GDI [Code of Conduct](http://gdidayton.com/code-of-conduct/).
 
 ### WHEN
 Saturday, September 10, 2016 from 10:00 AM to 2:00 PM (EDT)
