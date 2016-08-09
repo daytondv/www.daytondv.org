@@ -7,7 +7,11 @@ day: Saturday, September 10th
 rsvp: https://www.eventbrite.com/e/web-mapping-workshop-tickets-26604276106
 description: "Interested in making maps for the web? This workshop might be the perfect place to start! Code for Dayton, Girl Develop It, and the Dayton Data Visualization group are working together to present a four hour workshop to get you up to speed on making web maps with Leaflet. The workshop will be a four hour event, with two hours dedicated to instruction and tutorials, and two hours dedicated to a hands on lab. Lunch will be provided."
 ---
-Interested in making maps for the web? This workshop might be the perfect place to start!
+Interested in making maps for the web?
+[Dayton Data Visualization](http://daytondv.org),
+[Girl Develop It Dayton](http://gdidayton.com), and
+[Code For Dayton](http://codefordayton.org)
+are teaming up to to provide the (we think) perfect introduction to mapping on the web.
 
 We will spend the first two hours guiding you through the basics of crafting web maps with Leaflet.js, and then spend the second half building cool things with what we’ve learned.
 
