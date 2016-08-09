@@ -38,4 +38,4 @@ and
 If you have questions or
 concerns about our policy, feel free to contact the Dayton Data Visualization meetup
 organizers or suggest edits at
-[https://github.com/daytondv/www.daytondv.com](https://github.com/daytondv/www.daytondv.com).
+[https://github.com/daytondv/www.daytondv.org](https://github.com/daytondv/www.daytondv.org).
