@@ -1,13 +1,13 @@
 # Dayton Data Visualization Meetup Website
 
 This is the repository for the Dayton Data Visualization meetup website at
-http://www.daytondv.com
+http://www.daytondv.org
 We would love for you to join us! Become a member of our group at the
 meetup.com website http://www.meetup.com/daytondv and come to our next event.
 
 ## Contributing
 We need help with this site. See the current open issues list at
-https://github.com/bowmanmc/www.daytondv.com/issues
+https://github.com/daytondv/www.daytondv.org/issues
 It takes a lot to build and run a site like this, but hopefully by enlisting the
 community, we can make a valuable resource for the Dayton (and beyond)
 Data Visualization community. We need help with HTML & CSS development, site
@@ -16,7 +16,7 @@ layout and design, content writing and editing, and tutorial creation.
 For some issues, such as editing or writing content, you can submit pull requests
 directly through the GitHub interface. For edits, navigate to the file you want
 to change through the GitHub.com website
-https://github.com/bowmanmc/www.daytondv.com/tree/master/src
+https://github.com/daytondv/www.daytondv.org/tree/master/src
 and click the pencil button in the toolbar. For new files, navigate to the
 *folder* where you want the file to go, and click the "New File" button in the
 toolbar. These edits will then go to the site organizers, who will review your
@@ -78,8 +78,8 @@ opening a browser and navigating to http://localhost:9000.
 ### Pull Requests
 Once you fix an issue or have a change to make, you'll need to submit a pull
 request to the organizers for review. You can do this by forking the
-[www.daytondv.com](https://github.com/bowmanmc/www.daytondv.com)
+[www.daytondv.org](https://github.com/daytondv/www.daytondv.org)
 repository into your own account, making your changes,
 and then by clicking the "New Pull Request" button on GitHub. If this is done
 correctly, you should see it show up in our list of open pull requests at
-https://github.com/bowmanmc/www.daytondv.com/pulls
+https://github.com/daytondv/www.daytondv.org/pulls
