@@ -1,0 +1,23 @@
+---
+layout: default
+title: Sponsors
+permalink: /sponsors/
+---
+
+<h1>Sponsors</h1>
+
+<p>
+    Interested in sponsoring the Dayton Data Visualization group? Please contact
+    <a href="mailto:bowmanmc@gmail.com">Michael Bowman</a> or
+    <a href="mailto:chris.dickman@appliedis.com">Chris Dickman</a>
+    for more information.
+</p>
+
+
+{% for sponsor in site.sponsors %}
+<div class="sponsorlist-sponsor">
+    <h2><a class="item-link" href="{{ sponsor.url | prepend: site.baseurl }}">{{ sponsor.title }}</a></h2>
+    <img class="sponsorlist-logo" src="/images/sponsors/{{ sponsor.logosm }}" alt="{{ sponsor.title }}" />
+    <p>{{ sponsor.overview }}</p>
+</div>
+{% endfor %}

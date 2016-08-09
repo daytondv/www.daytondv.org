@@ -1,0 +1,11 @@
+
+.sponsorlist-sponsor {
+
+    @include outer-container(100%);
+
+    .sponsorlist-logo {
+        float: left;
+        height: 64px;
+        margin: 0 1.0em 1.0em 0;
+    }
+}
