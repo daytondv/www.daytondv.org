@@ -1,5 +1,5 @@
 ---
-layout: sponsor
+layout: plain
 title:  "Applied Information Sciences"
 date:   2016-07-19 05:00:00 -0500
 logosm: aisLogo-Left.svg
