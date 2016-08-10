@@ -2,6 +2,7 @@
 .event__desc, .event__rsvp {
 
     @include outer-container(100%);
+    margin-bottom: 1.0em;
 
     .button {
         float: right;
