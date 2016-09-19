@@ -67,6 +67,24 @@ $header-transition: all 0.3s;
             width: $nav-width;
         }
     }
+
+    .meetup-btn {
+        padding: 1.0em;
+        text-align: center;
+
+        @include media($tablet-portrait) {
+            padding: 2.0em;
+            text-align: right;
+        }
+        @include media ($tablet-landscape) {
+            padding: 2.0em;
+            text-align: right;
+        }
+        @include media ($desktop) {
+            padding: 2.0em;
+            text-align: right;
+        }
+    }
 }
 
 .navigation {

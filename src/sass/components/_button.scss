@@ -23,3 +23,15 @@
         height: 20px;
     }
 }
+
+.button-primary {
+    @extend .button;
+
+    background-color: $clr-hlight_lt;
+    background-image: linear-gradient(to bottom, lighten($clr-hlight_lt, 5%), $clr-hlight_lt);
+
+    &:hover {
+        background-color: $clr-hlight_lt;
+        background-image: linear-gradient(to bottom, lighten($clr-hlight_lt, 7%), lighten($clr-hlight_lt, 3%));
+    }
+}
