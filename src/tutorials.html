@@ -1,0 +1,14 @@
+---
+layout: default
+title: Tutorials
+permalink: /tutorials/
+---
+
+<h1>Tutorials</h1>
+
+{% for tut in site.tutorials %}
+<div class="tutoriallist__tutorial">
+    <h2><a class="item-link" href="{{ tut.url | prepend: site.baseurl }}">{{ tut.title }}</a></h2>
+    <p>{{ tut.overview }}</p>
+</div>
+{% endfor %}

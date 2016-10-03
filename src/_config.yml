@@ -20,6 +20,9 @@ collections:
     sponsors:
         output: true
         permalink: /sponsor/:path/
+    tutorials:
+        output: true
+        permalink: /tutorial/:path/
 
 # Build settings
 markdown: kramdown
