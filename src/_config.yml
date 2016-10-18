@@ -11,6 +11,7 @@ baseurl: ""
 url: "http://www.daytondv.org"
 twitter_username: daytondv
 github_username:  daytondv
+future: true
 
 # Collections
 collections:
