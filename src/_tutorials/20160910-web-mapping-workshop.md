@@ -13,7 +13,7 @@ The
 [Dayton Data Visualization](http://daytondv.org)
 meetups co-organized a four hour workshop on making web maps with Leaflet.js in
 September 2016. The course materials and tutorial are available at
-[http://codefordayton.org/mapping_workshop](http://codefordayton.org/mapping_workshop).
+[http://codefordayton.github.io/mapping_workshop](http://codefordayton.github.io/mapping_workshop).
 
 The tutorial covers:
 * Getting started with Leaflet
