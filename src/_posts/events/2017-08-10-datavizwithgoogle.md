@@ -10,6 +10,12 @@ description: "For our May event, we'll be doing lightning talks! We'll have six 
 
 Many thanks to Sara Cope and Zhenyang Hua for volunteering to speak at our August event! This will be a lunchtime meetup in Beavercreek at Applied Information Sciences.
 
+We'd also like to thank our new raffle sponsor [DiDacTex](http://www.didactex.com/)! They'll be bringing three Starbucks gift cards to
+raffle off before the event, so get here early and enter the raffle. Did I mention [they're hiring?](http://www.didactex.com/careers/)
+
+<a href="http://www.didactex.com"><img alt="DiDacTex" src="/images/sponsors/didactex.png" width="200" /></a>
+
+
 * 11:30am: Pizza, Sponsors, and Announcements
 
 * 12:00pm: Quickly Create Data Dashboards with Google Data Studio - Sara Cope - Google Data Studio is a new addition to the Google Analytics lineup that lets you create quick and easy custom dashboards using a wide range of data sources. In this talk, we’ll go over the basics of using Data Studio and walk through creating your first dashboard.
