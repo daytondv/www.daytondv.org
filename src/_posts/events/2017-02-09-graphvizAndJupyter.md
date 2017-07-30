@@ -10,6 +10,8 @@ description: "Many thanks to Evelyn Boettcher and Dave Caraway for volunteering 
 
 Many thanks to Evelyn Boettcher and Dave Caraway for volunteering to speak at our February event! This will be a lunchtime meetup in Beavercreek at Applied Information Sciences.
 
+Miss the event? Catch up at [https://www.youtube.com/watch?v=9i4nAPKeTjk](https://www.youtube.com/watch?v=9i4nAPKeTjk)
+
 * 11:30am: Pizza, Sponsors, and Announcements
 
 * 12:00pm: Focusing on the Flow with Dot - "dot" draws directed graphs as hierarchies. It runs as a command line program, web visualization service, or with a compatible graphical interface.Its features include well-tuned layout algorithms for placing nodes and edgesplines, edge labels, “record” shapes with “ports” for drawing data structures; and cluster layouts (cite: www.graphviz.org/pdf/dotguide.pdf). Because "dot" takes care  of the layout, you are free to focus on how objects are related to each other.  Graphs are simply written as a human readable text file: digraph mydotgraph {main -> parse -> execute;}.  This talk will give you the tools to start making your own graphs either organizations charts, software flow diagrams, or work flows using dot.
