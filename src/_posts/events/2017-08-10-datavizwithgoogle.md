@@ -15,6 +15,7 @@ raffle off before the event, so get here early and enter the raffle. Did I menti
 
 <a href="http://www.didactex.com"><img alt="DiDacTex" src="/images/sponsors/didactex.png" width="200" /></a>
 
+Miss the event? Catch up at [https://www.youtube.com/watch?v=VrNj1kxk8Eg](https://www.youtube.com/watch?v=VrNj1kxk8Eg)
 
 * 11:30am: Pizza, Sponsors, and Announcements
 
