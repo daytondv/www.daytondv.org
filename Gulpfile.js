@@ -10,10 +10,6 @@ var moment      = require('moment');
 var os          = require('os');
 var pkg         = require('./package.json');
 
-gulp.task('copyfonts', function() {
-    console.log('Copying FontAwesome fonts into fonts...');
-    gulp.src('node_modules/font-awesome/fonts/**/*').pipe(gulp.dest('src/fonts'));
-});
 
 gulp.task('dist', function() {
     console.log('Running dist task...');
@@ -40,10 +36,10 @@ gulp.task('dist', function() {
         console.log('    ' + err.message);
     }
 
-    fs.appendFileSync(ver, '\nwww.daytondv.com');
+    fs.appendFileSync(ver, '\nwww.daytondv.org');
     fs.appendFileSync(ver, '\n===================');
     fs.appendFileSync(ver, '\nName: ' + pkg.name);
-    fs.appendFileSync(ver, '\nURL: https://github.com/bowmanmc/www.daytondv.com');
+    fs.appendFileSync(ver, '\nURL: https://github.com/daytondv/www.daytondv.org');
     fs.appendFileSync(ver, '\nVersion: ' + pkg.version);
     fs.appendFileSync(ver, '\nGit Branch: ' + branch);
     fs.appendFileSync(ver, '\nGit Revision: ' + rev);
