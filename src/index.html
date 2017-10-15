@@ -11,10 +11,17 @@ layout: home
             <h2>{{ event.day }}</h2>
             <h3><a href="{{ event.url }}">{{ event.title }}</a></h3>
             <p>{{ event.description }}</p>
-            <a class="button" href="{{ event.rsvp }}">
-                <img src="/images/meetup-logo.svg" />
-                RSVP
-            </a>
+            {% if event.youtube %}
+                <a class="button" href="{{ event.youtube }}">
+                    <img src="/images/youtube.svg" />
+                    YouTube
+                </a>
+            {% else %}
+                <a class="button" href="{{ event.rsvp }}">
+                    <img src="/images/meetup-logo.svg" />
+                    RSVP
+                </a>
+            {% endif %}
         </div>
         {% endfor %}
 
