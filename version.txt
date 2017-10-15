@@ -1,0 +1,11 @@
+
+www.daytondv.org
+===================
+Name: www.daytondv.com
+URL: https://github.com/daytondv/www.daytondv.org
+Version: 1.0.0
+Git Branch: gh-pages
+Git Revision: 7a4d6909b477cd70c9eed9ddf6f641d272960309
+Build Time: 2017-10-14 20:44:18
+Build Host: Rock.local [darwin]
+

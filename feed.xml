@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dayton Data Visualization</title>
+    <description>Dayton Data Visualization Group</description>
+    <link>http://www.daytondv.org/</link>
+    <atom:link href="http://www.daytondv.org/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 14 Oct 2017 20:44:17 -0400</pubDate>
+    <lastBuildDate>Sat, 14 Oct 2017 20:44:17 -0400</lastBuildDate>
+    <generator>Jekyll v3.5.0</generator>
+    
+      <item>
+        <title>Data Visualization with Google</title>
+        <description>&lt;p&gt;Many thanks to Sara Cope and Zhenyang Hua for volunteering to speak at our August event! This will be a lunchtime meetup in Beavercreek at Applied Information Sciences.&lt;/p&gt;
+
+&lt;p&gt;We’d also like to thank our new raffle sponsor &lt;a href=&quot;http://www.didactex.com/&quot;&gt;DiDacTex&lt;/a&gt;! They’ll be bringing three Starbucks gift cards to
+raffle off before the event, so get here early and enter the raffle. Did I mention &lt;a href=&quot;http://www.didactex.com/careers/&quot;&gt;they’re hiring?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.didactex.com&quot;&gt;&lt;img alt=&quot;DiDacTex&quot; src=&quot;/images/sponsors/didactex.png&quot; width=&quot;200&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Miss the event? Catch up at &lt;a href=&quot;https://www.youtube.com/watch?v=VrNj1kxk8Eg&quot;&gt;https://www.youtube.com/watch?v=VrNj1kxk8Eg&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;11:30am: Pizza, Sponsors, and Announcements&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;12:00pm: Quickly Create Data Dashboards with Google Data Studio - Sara Cope - Google Data Studio is a new addition to the Google Analytics lineup that lets you create quick and easy custom dashboards using a wide range of data sources. In this talk, we’ll go over the basics of using Data Studio and walk through creating your first dashboard.
+Sara is a front-end developer for the federal government, mentor at Thinkful and founding leader of Girl Develop It Dayton. When Sara isn’t immersed in all things web, she can be found playing tabletop games and supporting her local park system. She tweets about open source, data, and women in tech at @sarassassin.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;12:30pm: Big Data and Machine Learning on Google Cloud Platform - Part I - Zhenyang Hua - Big data and machine learning are two subjects could be used well together to solve many problems. This presentation will be part of a series that gives an brief introduction to big data and machine learning using Google Cloud Platform. This presentation particularly summaries a few points of why to use a cloud solution to solve a problem, and gives a very brief introduction to the products Google Cloud Platform provides, it includes a simple workflow example in the end. If enough interest is raised, there will be more presentations in the future about hands on exercises to solve real world problems using the products we introduce in this presentation. Zhenyang is a full stack developer. He enjoys hiking, swimming and downhill skiing.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;1:00pm: End&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 10 Aug 2017 12:30:00 -0400</pubDate>
+        <link>http://www.daytondv.org/events/2017/08/10/datavizwithgoogle.html</link>
+        <guid isPermaLink="true">http://www.daytondv.org/events/2017/08/10/datavizwithgoogle.html</guid>
+        
+        
+        <category>events</category>
+        
+      </item>
+    
+      <item>
+        <title>Youtube Channel</title>
+        <description>&lt;p&gt;The Dayton Data Visualization
+&lt;a href=&quot;https://www.youtube.com/channel/UCZSebXMfWM5G9-X7cAUrVSw&quot;&gt;youtube channel&lt;/a&gt;
+is now available! DDV Co-organizer,
+Matt Anderson, has volunteered to run A/V for all of our meetups. We’ll be
+recording the meetups and posting them to this channel shortly after each event.&lt;/p&gt;
+
+&lt;p&gt;Check it out at &lt;a href=&quot;https://www.youtube.com/channel/UCZSebXMfWM5G9-X7cAUrVSw&quot;&gt;https://www.youtube.com/channel/UCZSebXMfWM5G9-X7cAUrVSw&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 30 Jul 2017 12:30:00 -0400</pubDate>
+        <link>http://www.daytondv.org/news/2017/07/30/youtube.html</link>
+        <guid isPermaLink="true">http://www.daytondv.org/news/2017/07/30/youtube.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Lightning Talks</title>
+        <description>&lt;p&gt;For our May event, we’ll be doing lightning talks! We’ll have six speakers each presenting a topic in 5-10 minutes. This will be a lunchtime meetup in Beavercreek at Applied Information Sciences.&lt;/p&gt;
+
+&lt;p&gt;Miss the event? Catch up at &lt;a href=&quot;https://www.youtube.com/watch?v=M-Q0tJ8WNS4&quot;&gt;https://www.youtube.com/watch?v=M-Q0tJ8WNS4&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;11:30am: Pizza, Sponsors, and Announcements&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;12:00pm: Lightning Talks! Our presenters are:
+  &lt;strong&gt;Zhenyang Hua&lt;/strong&gt; - Google Maps API v3,
+  &lt;strong&gt;Sara Cope&lt;/strong&gt; - Google Data Studio,
+  &lt;strong&gt;Phil Schanely&lt;/strong&gt; - CSS Grid,
+  &lt;strong&gt;Matt Anderson&lt;/strong&gt; - Freeboard Dashboard,
+  &lt;strong&gt;Jeff Smith&lt;/strong&gt; - Leaflet with WebGL,
+  &lt;strong&gt;Evelyn Boettcher&lt;/strong&gt; - JavaScript Apps in Google Spreadsheets&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;1:00pm: End&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 11 May 2017 12:30:00 -0400</pubDate>
+        <link>http://www.daytondv.org/events/2017/05/11/lightningtalks.html</link>
+        <guid isPermaLink="true">http://www.daytondv.org/events/2017/05/11/lightningtalks.html</guid>
+        
+        
+        <category>events</category>
+        
+      </item>
+    
+      <item>
+        <title>GraphViz and Jupyter</title>
+        <description>&lt;p&gt;Many thanks to Evelyn Boettcher and Dave Caraway for volunteering to speak at our February event! This will be a lunchtime meetup in Beavercreek at Applied Information Sciences.&lt;/p&gt;
+
+&lt;p&gt;Miss the event? Catch up at &lt;a href=&quot;https://www.youtube.com/watch?v=9i4nAPKeTjk&quot;&gt;https://www.youtube.com/watch?v=9i4nAPKeTjk&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;11:30am: Pizza, Sponsors, and Announcements&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;12:00pm: Focusing on the Flow with Dot - “dot” draws directed graphs as hierarchies. It runs as a command line program, web visualization service, or with a compatible graphical interface.Its features include well-tuned layout algorithms for placing nodes and edgesplines, edge labels, “record” shapes with “ports” for drawing data structures; and cluster layouts (cite: www.graphviz.org/pdf/dotguide.pdf). Because “dot” takes care  of the layout, you are free to focus on how objects are related to each other.  Graphs are simply written as a human readable text file: digraph mydotgraph {main -&amp;gt; parse -&amp;gt; execute;}.  This talk will give you the tools to start making your own graphs either organizations charts, software flow diagrams, or work flows using dot.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;12:30pm: Building Interactive Visualizations in Jupyter Notebook - Jupyter notebook (formerly Ipython notebook) has become a critical tool for many data scientists and researchers, but when publishing the notebooks to the web, the visualizations become rather bland static images. In this talk, we’ll cover a few ways to make your notebooks come alive by building clickable JavaScript visualizations and simple user-interfaces with the Bokeh and Plotly open-source libraries.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;1:00pm: End&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 09 Feb 2017 11:30:00 -0500</pubDate>
+        <link>http://www.daytondv.org/events/2017/02/09/graphvizAndJupyter.html</link>
+        <guid isPermaLink="true">http://www.daytondv.org/events/2017/02/09/graphvizAndJupyter.html</guid>
+        
+        
+        <category>events</category>
+        
+      </item>
+    
+      <item>
+        <title>Sheep and Geospatial Analysis</title>
+        <description>&lt;p&gt;Many thanks to Evelyn Boettcher and Sean McCarty for volunteering to speak at our November event! This will be a lunchtime meetup in Beavercreek at Applied Information Sciences.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;11:30am: Pizza, Sponsors, and Announcements&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;12:00pm: Resolve Your Sheep -
+Visualizations showcasing data and insights are meant to be shown to others and it’s natural to take for granted that if we can see it others can too. But, …have you ever noticed/said/heard, “Wow, this graph looked so much better on my screen.”  Why is that?  Why can I see it and my big boss cannot?  Two things come to play: the human eye and the display. The human eye’s ability to resolve (“see”) an object depends on the object’s contrast with the background and the contrast spatial frequency which is represented by a Contrast Threshold Function (CTF).  One’s personal CTF will also change in time, unfortunately for the worse as you get older. Once your graph is displayed, the medium that it is being displayed on or through will add to the CTF.  This spatial frequency response of the display system tends to play a large part in that blurry graph/font.  Evelyn Boettcher spent 4 years with the U.S. Army Human Performance group modeling how well Soldier can resolve their targets.  The goal of this talk is to make one cognizant how spatial frequency affects the eye’s ability to see, so that your sheep can be resolved by your audience.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;12:30pm: Geospatial Analysis of the Texas Department of Licensing &amp;amp; Regulation Open Data Set -
+Sean McCarty will present a Geospatial Analysis of the Texas Department of Licensing and Regulation Open Data set. Sean is an image &amp;amp; signal processing engineer that has experience implementing synthetic aperture radar image formation, signal processing, and real-time communication waveform generation solutions.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;1:00pm: End&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 10 Nov 2016 11:30:00 -0500</pubDate>
+        <link>http://www.daytondv.org/events/2016/11/10/sheepAndGeospatialAnalysis.html</link>
+        <guid isPermaLink="true">http://www.daytondv.org/events/2016/11/10/sheepAndGeospatialAnalysis.html</guid>
+        
+        
+        <category>events</category>
+        
+      </item>
+    
+      <item>
+        <title>Web Mapping Workshop</title>
+        <description>&lt;p&gt;Interested in making maps for the web?
+&lt;a href=&quot;http://daytondv.org&quot;&gt;Dayton Data Visualization&lt;/a&gt;,
+&lt;a href=&quot;http://gdidayton.com&quot;&gt;Girl Develop It Dayton&lt;/a&gt;, and
+&lt;a href=&quot;http://codefordayton.org&quot;&gt;Code For Dayton&lt;/a&gt;
+are teaming up to to provide the (we think) perfect introduction to mapping on the web.&lt;/p&gt;
+
+&lt;p&gt;We will spend the first two hours guiding you through the basics of crafting web maps with Leaflet.js, and then spend the second half building cool things with what we’ve learned.&lt;/p&gt;
+
+&lt;p&gt;Some of the topics we’ll cover include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Getting started with Leaflet&lt;/li&gt;
+  &lt;li&gt;Adding markers, lines, &amp;amp; other geometry&lt;/li&gt;
+  &lt;li&gt;Interactivity&lt;/li&gt;
+  &lt;li&gt;Useful plugins for extending Leaflet.&lt;/li&gt;
+  &lt;li&gt;Fun datasources for local, national, and international mapping.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We will do our best to accommodate all skill levels, but you will get the most out of this workshop if you have a passing familiarity with Javascript.&lt;/p&gt;
+
+&lt;p&gt;Stuff to bring or do beforehand:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Your own laptop (PC or Mac)&lt;/li&gt;
+  &lt;li&gt;Install a text editor (like Sublime Text) for writing code&lt;/li&gt;
+  &lt;li&gt;Sign up for a free GitHub account&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Lunch will be provided (please let us know if you have any dietary restrictions).&lt;/p&gt;
+
+&lt;p&gt;All attendees are expected to abide by the GDI &lt;a href=&quot;http://gdidayton.com/code-of-conduct/&quot;&gt;Code of Conduct&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;when&quot;&gt;WHEN&lt;/h3&gt;
+&lt;p&gt;Saturday, September 10, 2016 from 10:00 AM to 2:00 PM (EDT)&lt;/p&gt;
+
+&lt;h3 id=&quot;where&quot;&gt;WHERE&lt;/h3&gt;
+&lt;p&gt;The Entrepreneurs Center - 714 E Monument Avenue, Dayton, OH 45402&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Aug 2016 12:30:00 -0400</pubDate>
+        <link>http://www.daytondv.org/events/2016/08/01/web-mapping-workshop.html</link>
+        <guid isPermaLink="true">http://www.daytondv.org/events/2016/08/01/web-mapping-workshop.html</guid>
+        
+        
+        <category>events</category>
+        
+      </item>
+    
+      <item>
+        <title>Website Launch</title>
+        <description>&lt;p&gt;The Dayton Data Visualization website has been launched! We’re excited to be
+able to bring this resource to the community and hope it will become something
+everyone will consider contributing to. Check out the source code on
+&lt;a href=&quot;http://github.com/daytondv/www.daytondv.org&quot;&gt;GitHub&lt;/a&gt;
+and help us make the site even better!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 24 Jul 2016 12:30:00 -0400</pubDate>
+        <link>http://www.daytondv.org/news/2016/07/24/website.html</link>
+        <guid isPermaLink="true">http://www.daytondv.org/news/2016/07/24/website.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Tufte, Datazar, and D3.js</title>
+        <description>&lt;p&gt;Many thanks to Amanda Cinnamon and Aman Tsegai for volunteering to speak at our August event! This will be a lunchtime meetup in Beavercreek at Applied Information Sciences.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;11:30am: Pizza, Sponsors, and Announcements&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;12:00pm: Tufte’s Data Visualization Principles -
+Edward Tufte is a world-renowned expert on information design and data visualization. His first book “The Visual Display of Quantitative Information” is essential reading for those looking to hone their skills at communicating information through graphical displays. This presentation will summarize the principles he teaches, including data-ink ratio, data density, the small multiple, and his views of “chartjunk.” Amanda is a software developer, modeling and simulation analyst, and the founder of Dayton Analytics. She enjoys boating, hiking, and the occasional Pokemon hunt with her 4 year old.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;12:30pm: Datazar and D3.js version 4 -
+Aman Tsegai, co-founder &amp;amp; CEO at Datazar, will be talking about how Datazar integrated D3js into it’s platform as it’s main visualization engine. With the recent release of D3js v 4.0, he will be walking through the new possibilities and also talk about the challenges of using D3js in a way that accommodates a wide array of functionalities and datasets.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;1:00pm: End&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 11 Jul 2016 12:30:00 -0400</pubDate>
+        <link>http://www.daytondv.org/events/2016/07/11/eventsTufteDatazarD3.html</link>
+        <guid isPermaLink="true">http://www.daytondv.org/events/2016/07/11/eventsTufteDatazarD3.html</guid>
+        
+        
+        <category>events</category>
+        
+      </item>
+    
+  </channel>
+</rss>

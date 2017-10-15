@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 216 216" class="logo ddv">
+    <title>Dayton Data Visualization Logo</title>
+    <defs>
+        <linearGradient y1="5%" y2="95%" x1="0" x2="0" id="orange2red">
+            <stop stop-color="#FF871C" offset="0%">
+            </stop>
+            <stop stop-color="#ED2224" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient y1="10%" y2="80%" x1="0" x2="0" id="o2r1">
+            <stop stop-color="#FF871C" offset="0">
+                <animate attributeName="offset" values=".15;.85;.15;" dur="3s" repeatCount="indefinite" />
+            </stop>
+            <stop stop-color="#ED2224" offset="0"></stop>
+        </linearGradient>
+        <linearGradient y1="10%" y2="80%" x1="0" x2="0" id="o2r2">
+            <stop stop-color="#FF871C" offset="0%">
+                <animate attributeName="offset" values=".5;.99;.5;.01;.5;" dur="3.5s" repeatCount="indefinite" />
+            </stop>
+            <stop stop-color="#ED2224" offset="0"></stop>
+        </linearGradient>
+        <linearGradient y1="10%" y2="80%" x1="0" x2="0" id="o2r3">
+            <stop stop-color="#FF871C" offset="0%">
+                <animate attributeName="offset" values=".07; .82; .07;" dur="2s" repeatCount="indefinite" />
+            </stop>
+            <stop stop-color="#ED2224" offset="0"></stop>
+        </linearGradient>
+        <linearGradient y1="10%" y2="80%" x1="0" x2="0" id="o2r4">
+            <stop stop-color="#FF871C" offset="0%">
+                <animate attributeName="offset" values=".13; .73; .13;" dur="2.5s" repeatCount="indefinite" />
+            </stop>
+            <stop stop-color="#ED2224" offset="0"></stop>
+        </linearGradient>
+        <linearGradient y1="10%" y2="80%" x1="0" x2="0" id="o2r5">
+            <stop stop-color="#FF871C" offset="0%">
+                <animate attributeName="offset" values=".4;.8;.4;.01;.4" dur="4s" repeatCount="indefinite" />
+            </stop>
+            <stop stop-color="#ED2224" offset="0"></stop>
+        </linearGradient>
+    </defs>
+    <g class="animating">
+        <rect fill="url(#o2r1)" x="5" y="16.145" width="14.158" height="162.129" />
+        <rect fill="url(#o2r2)"x="26.291" y="16.145" width="14.158" height="169.129" />
+        <rect fill="url(#o2r3)"x="47.582" y="16.145" width="14.158" height="183.292" />
+        <rect fill="url(#o2r4)"x="68.873" y="23.187" width="14.158" height="183.25" />
+        <rect fill="url(#o2r5)"x="90.164" y="37.352" width="14.158" height="162.085" />
+        <rect fill="url(#o2r1)"x="111.455" y="44.353" width="14.158" height="169.167" />
+        <rect fill="url(#o2r2)"x="132.748" y="37.352" width="14.158" height="155.006" />
+        <rect fill="url(#o2r3)"x="154.039" y="23.145" width="14.158" height="148.083" />
+        <rect fill="url(#o2r4)"x="175.33" y="16.145" width="14.158" height="133.628" />
+        <rect fill="url(#o2r2)"x="196.621" y="2" width="14.158" height="119.773" />
+    </g>
+    <g class="steady">
+        <rect x="5" y="16.145" fill="url(#orange2red)" width="14.158" height="162.129" />
+        <rect x="26.291" y="16.145" fill="url(#orange2red)" width="14.158" height="169.129" />
+        <rect x="47.582" y="16.145" fill="url(#orange2red)" width="14.158" height="183.292" />
+        <rect x="68.873" y="23.187" fill="url(#orange2red)" width="14.158" height="183.25" />
+        <rect x="90.164" y="37.352" fill="url(#orange2red)" width="14.158" height="162.085" />
+        <rect x="111.455" y="44.353" fill="url(#orange2red)" width="14.158" height="169.167" />
+        <rect x="132.748" y="37.352" fill="url(#orange2red)" width="14.158" height="155.006" />
+        <rect x="154.039" y="23.145" fill="url(#orange2red)" width="14.158" height="148.083" />
+        <rect x="175.33" y="16.145" fill="url(#orange2red)" width="14.158" height="133.628" />
+        <rect x="196.621" y="2" fill="url(#orange2red)" width="14.158" height="119.773" />
+    </g>
+</svg>
