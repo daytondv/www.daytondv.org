@@ -22,8 +22,7 @@ Sponsors are also subject to the anti-harassment policy. In particular, sponsors
 If a participant engages in harassing behavior, the meetup organizers may take any action they deem appropriate, including warning the offender or expulsion from the event with no refund.
 
 If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a meetup organizer immediately
-([Michael Bowman](mailto:bowmanmc@gmail.com) or
-[Chris Dickman](mailto:chris.dickman@appliedis.com)).
+([Michael Bowman](mailto:bowmanmc@gmail.com).
 
 Meetup staff will be happy to help participants contact venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the event. We value your attendance.
 
