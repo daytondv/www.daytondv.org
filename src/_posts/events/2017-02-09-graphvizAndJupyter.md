@@ -5,6 +5,7 @@ date:   2017-02-09 11:30:00 -0500
 category: events
 day: Thursday, February 9th
 rsvp: https://www.meetup.com/daytondv/events/228787605/
+youtube: https://www.youtube.com/watch?v=9i4nAPKeTjk
 description: "Many thanks to Evelyn Boettcher and Dave Caraway for volunteering to speak at our February event! Evelyn will bet teaching us about GraphViz/Dot. Dave will show us how to build interactive data visualizations with Jupyter. This will be a lunchtime meetup in Beavercreek at Applied Information Sciences."
 ---
 

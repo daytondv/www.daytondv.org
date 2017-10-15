@@ -5,6 +5,7 @@ date:   2017-08-10 11:30:00 -0500
 category: events
 day: Thursday, August 10th
 rsvp: https://www.meetup.com/daytondv/events/240760565/
+youtube: https://www.youtube.com/watch?v=VrNj1kxk8Eg
 description: "For our May event, we'll be doing lightning talks! We'll have six speakers each presenting a topic in 5-10 minutes. This will be a lunchtime meetup in Beavercreek at Applied Information Sciences."
 ---
 
