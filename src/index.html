@@ -13,12 +13,12 @@ layout: home
             <p>{{ event.description }}</p>
             {% if event.youtube %}
                 <a class="button" href="{{ event.youtube }}">
-                    <img src="/images/youtube.svg" />
+                    <img src="/images/youtube.svg" alt="" />
                     YouTube
                 </a>
             {% else %}
                 <a class="button" href="{{ event.rsvp }}">
-                    <img src="/images/meetup-logo.svg" />
+                    <img src="/images/meetup-logo.svg" alt="" />
                     RSVP
                 </a>
             {% endif %}
